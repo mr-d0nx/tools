@@ -1,0 +1,140 @@
+clear
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'
+yellow='\033[33;1m'
+echo $red
+clear
+sleep 1
+figlet "INDO"
+sleep 1
+echo $white
+figlet "TOOLS"
+sleep 1
+echo $cyan
+echo "+====================+"
+echo " Author :MrD0nx"
+echo " Team   :IndoDarknet"
+echo " IG     :Moh.dito_"
+echo "+====================+"
+sleep 1
+echo
+echo "Menu :"
+sleep 1
+echo "1). Hack Listrik"
+sleep 1
+echo "2). Hack Satelit"
+sleep 1
+echo "3). Perang Cyber"
+sleep 1
+echo "Pilihan"
+read -p "----------> " bro
+
+if [ $bro = 1 ] || [ $bro = 1 ]
+then
+echo $cyan
+clear
+figlet "PLN HACK"
+echo "Hack PLN Via Termux"
+echo
+read -p "Masukan No Token---> " pln
+read -p "Yakin? (y/n) : " y
+echo $yellow
+echo "\\"
+sleep 1
+echo "//"
+sleep 1
+echo "\\"
+sleep 1
+echo "//"
+sleep 1
+clear
+echo "Dekatkan HP ke Saklar Listrik"
+sleep 3
+echo "Tekan power Off di saklar dengan"
+echo "ujung HP"
+sleep 5
+echo "Work Kannn?"
+sleep 2
+echo $cyan
+clear                                          
+echo "Terimakasih Telah Menggunakan Script"
+sleep 1
+echo
+figlet "MrD0nx"
+echo
+echo
+echo
+sleep 1
+exit
+fi
+
+if [ $bro = 2 ] || [ $bro = 2 ]
+then
+echo $cyan
+clear
+sleep 1
+figlet "((Δ))"
+sleep 1
+echo "Satelit Hack"
+echo
+sleep 1
+echo "menu"
+echo "1.) BimaSakti"
+echo "2.) Indosiar"
+echo "3.) Palapa"
+echo "4.) Trojans"
+sleep 1
+read -p "Pilih Satelit--->" satelit
+echo "Mencoba Menggeser Satelit $satelit"
+sleep 1
+clear
+echo " Menggeser."
+sleep 1
+clear                                          
+echo " Menggeser..."
+sleep 2
+echo $green" Done..."
+echo
+echo "Tergeser 1,3° ke barat"
+echo "sukses.."
+echo
+exit
+fi
+
+if [ $bro = 3 ] || [ $bro = 3 ]
+then
+echo $cyan
+clear
+figlet "CYBER"
+sleep 1
+clear
+clear
+figlet "KILLER"
+sleep 2
+clear
+read -p "Kode Negara---> " kode
+read -p "Nama Negara---> " nama
+read -p "Serang 1 kill (y/n) " y
+echo $yellow"MENYARANG."
+sleep 1
+clear
+echo $yellow"MENYERANG.."
+sleep 1
+clear
+echo $yellow"MENYERANG..."
+sleep 1
+clear
+echo $yellow"MENYERANG...."
+sleep 1
+clear
+echo $yellow"Menyerang....|»"
+sleep 1
+echo "  Done...."
+echo
+echo
+echo
+fi
